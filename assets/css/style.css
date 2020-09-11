@@ -1,3 +1,5 @@
+/* Se establecen la fuente de letras, tipo de letras y márgenes del cuerpo del documento */
+
 body * {
   font-family: 'Roboto', sans-serif;
   margin:0;
@@ -5,6 +7,8 @@ body * {
   border:0;
  }
 
+ /* Se da formato de tamaño, color y fuentes de letras en cada ítem, 
+    lo demás se configura usando las clases de bootstrap 4 */
 :root {
   --main-bg-color:#28a745	;
   --main-bg-color2: #17A2B8;
